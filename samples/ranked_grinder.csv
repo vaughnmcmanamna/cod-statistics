@@ -1,0 +1,64 @@
+UTC Timestamp,Game Type,Map,Match Outcome,Kills,Deaths,Damage,Damage Taken,Score
+45650.50000,Hardpoint,Vault,win,28,22,3600,3800,2800
+45650.55000,Control,Vault,loss,22,25,3000,4200,2200
+45650.60000,Search and Destroy,Vault,win,10,8,1600,1500,2000
+45651.50000,Hardpoint,Rewind,loss,24,28,3200,4600,2400
+45651.55000,Control,Rewind,win,26,20,3400,3400,2600
+45651.60000,Search and Destroy,Rewind,loss,8,12,1400,2000,1600
+45652.50000,Hardpoint,Protocol,win,30,24,3800,4000,3000
+45652.55000,Control,Protocol,win,28,21,3600,3600,2800
+45652.60000,Search and Destroy,Protocol,loss,9,11,1500,1800,1700
+45653.50000,Hardpoint,Hacienda,loss,22,26,3000,4400,2200
+45653.55000,Control,Hacienda,win,25,22,3300,3800,2500
+45653.60000,Search and Destroy,Hacienda,win,11,9,1700,1600,2100
+45654.50000,Hardpoint,Skyline,win,32,20,4000,3400,3200
+45654.55000,Control,Skyline,loss,24,27,3200,4400,2400
+45654.60000,Search and Destroy,Skyline,win,12,7,1800,1300,2300
+45655.50000,Hardpoint,Red Card,loss,26,29,3400,4800,2600
+45655.55000,Control,Red Card,win,27,23,3500,3900,2700
+45655.60000,Search and Destroy,Red Card,loss,7,10,1300,1700,1500
+45656.50000,Hardpoint,Dealership,win,29,23,3700,3900,2900
+45656.55000,Control,Dealership,win,26,21,3400,3600,2600
+45656.60000,Search and Destroy,Dealership,win,10,8,1600,1500,2000
+45657.50000,Hardpoint,Vault,loss,23,27,3100,4500,2300
+45657.55000,Control,Vault,win,25,22,3300,3800,2500
+45657.60000,Search and Destroy,Vault,win,11,8,1700,1500,2100
+45658.50000,Hardpoint,Rewind,win,31,21,3900,3600,3100
+45658.55000,Control,Rewind,loss,23,26,3100,4300,2300
+45658.60000,Search and Destroy,Rewind,win,12,9,1800,1600,2200
+45659.50000,Hardpoint,Protocol,win,28,24,3600,4000,2800
+45659.55000,Control,Protocol,loss,24,28,3200,4600,2400
+45659.60000,Search and Destroy,Protocol,win,10,7,1600,1300,2000
+45660.50000,Hardpoint,Hacienda,win,27,23,3500,3900,2700
+45660.55000,Control,Hacienda,win,29,20,3700,3400,2900
+45660.60000,Search and Destroy,Hacienda,loss,8,11,1400,1800,1600
+45661.50000,Hardpoint,Skyline,loss,25,29,3300,4700,2500
+45661.55000,Control,Skyline,win,28,22,3600,3800,2800
+45661.60000,Search and Destroy,Skyline,win,13,6,1900,1200,2400
+45662.50000,Hardpoint,Red Card,win,30,22,3800,3700,3000
+45662.55000,Control,Red Card,loss,22,27,3000,4400,2200
+45662.60000,Search and Destroy,Red Card,win,11,8,1700,1500,2100
+45663.50000,Hardpoint,Dealership,win,33,19,4100,3300,3300
+45663.55000,Control,Dealership,loss,23,26,3100,4300,2300
+45663.60000,Search and Destroy,Dealership,loss,9,12,1500,2000,1700
+45664.50000,Hardpoint,Vault,win,29,21,3700,3600,2900
+45664.55000,Control,Vault,win,27,20,3500,3400,2700
+45664.60000,Search and Destroy,Vault,loss,7,10,1300,1700,1500
+45665.50000,Hardpoint,Rewind,loss,24,28,3200,4600,2400
+45665.55000,Control,Rewind,win,26,23,3400,3900,2600
+45665.60000,Search and Destroy,Rewind,win,12,8,1800,1500,2200
+45666.50000,Hardpoint,Protocol,win,31,22,3900,3700,3100
+45666.55000,Control,Protocol,win,28,21,3600,3600,2800
+45666.60000,Search and Destroy,Protocol,loss,8,11,1400,1800,1600
+45667.50000,Hardpoint,Hacienda,loss,23,27,3100,4500,2300
+45667.55000,Control,Hacienda,win,25,22,3300,3800,2500
+45667.60000,Search and Destroy,Hacienda,win,11,9,1700,1600,2100
+45668.50000,Hardpoint,Skyline,win,32,20,4000,3400,3200
+45668.55000,Control,Skyline,win,29,19,3700,3300,2900
+45668.60000,Search and Destroy,Skyline,win,13,7,1900,1300,2400
+45669.50000,Hardpoint,Red Card,win,28,23,3600,3900,2800
+45669.55000,Control,Red Card,loss,24,28,3200,4600,2400
+45669.60000,Search and Destroy,Red Card,win,10,8,1600,1500,2000
+45670.50000,Hardpoint,Dealership,loss,25,29,3300,4700,2500
+45670.55000,Control,Dealership,win,27,22,3500,3800,2700
+45670.60000,Search and Destroy,Dealership,win,12,6,1800,1200,2300

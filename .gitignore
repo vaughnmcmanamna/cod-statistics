@@ -1,0 +1,5 @@
+backend/
+.claude/
+.vscode/
+test/
+*.env
