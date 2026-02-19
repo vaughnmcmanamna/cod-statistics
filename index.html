@@ -28,8 +28,8 @@
                 <button class="theme-toggle" onclick="toggleTheme()" title="Toggle light/dark mode" id="themeToggle">
                     <span class="theme-icon">☀️</span>
                 </button>
-                <button class="btn-primary" onclick="openUploadModal()">📤 Upload Data</button>
-                <button class="btn-secondary" onclick="clearCachedData()" title="Clear cached data">🗑️</button>
+                <button class="btn-primary" onclick="openUploadModal()">Upload Data</button>
+                <button class="btn-secondary" onclick="clearCachedData()" title="Clear cached data">Clear</button>
             </div>
         </div>
     </nav>
@@ -41,7 +41,6 @@
         <section id="dashboard-view" class="page-view active">
             <div class="page-header mb-8">
                 <h1>Performance Dashboard</h1>
-                <p class="text-secondary">Overview of your competitive performance metrics and trends</p>
             </div>
 
             <!-- Stats Summary Cards -->
@@ -70,7 +69,7 @@
             <!-- Quick Info -->
             <div class="dashboard-info-box">
                 <p class="text-secondary" style="font-size: 0.95rem; margin: 0;">
-                    📊 View detailed analytics in the <strong>Analytics</strong> tab above
+                    View detailed analytics in the <strong>Analytics</strong> tab above
                 </p>
             </div>
         </section>
@@ -79,7 +78,6 @@
         <section id="matches-view" class="page-view">
             <div class="page-header mb-8">
                 <h1>Match History</h1>
-                <p class="text-secondary">Detailed view of all your competitive matches</p>
             </div>
 
             <!-- Table Section (Placeholder for Phase 3) -->
@@ -99,7 +97,6 @@
 
                 <div id="matches-table-container">
                     <div class="empty-state">
-                        <div class="empty-state-icon">📋</div>
                         <div class="empty-state-title">Match Table Coming Soon</div>
                         <div class="empty-state-text">
                             The detailed match table view will be implemented in Phase 3.
@@ -118,35 +115,34 @@
         <section id="analytics-view" class="page-view">
             <div class="page-header mb-8">
                 <h1>Advanced Analytics</h1>
-                <p class="text-secondary">Deep dive into performance metrics with multiple visualization types</p>
             </div>
 
             <!-- Chart Tabs -->
             <div class="chart-tabs mb-6">
                 <button class="tab-btn active" data-chart="ranked-overview" onclick="switchAnalyticsChart('ranked-overview')">
-                    🏆 Ranked Overview
+                    Ranked Overview
                 </button>
                 <button class="tab-btn" data-chart="map-veto" onclick="switchAnalyticsChart('map-veto')">
-                    🚫 Map Veto Guide
+                    Map Veto Guide
                 </button>
                 <button class="tab-btn" data-chart="consistency" onclick="switchAnalyticsChart('consistency')">
-                    📊 Consistency
+                    Consistency
                 </button>
                 <button class="tab-btn" data-chart="win-rate-grid" onclick="switchAnalyticsChart('win-rate-grid')">
-                    🎯 Win Rate Grid
+                    Win Rate Grid
                 </button>
                 <button class="tab-btn" data-chart="map-performance" onclick="switchAnalyticsChart('map-performance')">
-                    🗺️ Map Performance
+                    Map Performance
                 </button>
                 <button class="tab-btn" data-chart="time-of-day" onclick="switchAnalyticsChart('time-of-day')">
-                    🕐 Time of Day
+                    Time of Day
                 </button>
             </div>
 
             <!-- Ranked Overview Container -->
             <div id="ranked-overview-container" class="chart-section active-chart">
                 <div class="chart-header">
-                    <h3 class="chart-title">🏆 Ranked Performance Overview</h3>
+                    <h3 class="chart-title">Ranked Performance Overview</h3>
                     <p class="text-secondary">Your competitive performance on ranked maps and modes</p>
                 </div>
                 <div id="rankedOverviewStats" class="stats-grid mb-6"></div>
@@ -156,7 +152,7 @@
             <!-- Map Veto Guide Container -->
             <div id="map-veto-container" class="chart-section">
                 <div class="chart-header">
-                    <h3 class="chart-title">🚫 Map Veto Recommendations</h3>
+                    <h3 class="chart-title">Map Veto Recommendations</h3>
                     <p class="text-secondary">Which maps to ban based on your performance</p>
                 </div>
                 <div id="mapVetoContent"></div>
@@ -165,18 +161,18 @@
             <!-- Consistency Container -->
             <div id="consistency-container" class="chart-section">
                 <div class="chart-header">
-                    <h3 class="chart-title">📊 Performance Consistency</h3>
+                    <h3 class="chart-title">Performance Consistency</h3>
                     <p class="text-secondary">How consistent are you across matches?</p>
                 </div>
-                <div id="consistencyStats" class="stats-grid mb-6"></div>
+                <div id="consistencyStats" class="stats-summary mb-6"></div>
                 <div class="chart-container" id="consistencyChart"></div>
             </div>
 
             <!-- Win Rate Grid Container -->
             <div id="win-rate-grid-container" class="chart-section">
                 <div class="chart-header">
-                    <h3 class="chart-title">🎯 Win Rate by Map & Mode</h3>
-                    <p class="text-secondary">Heat map showing your win rates across all combinations • 🏆 Purple border = Ranked map/mode</p>
+                    <h3 class="chart-title">Win Rate by Map & Mode</h3>
+                    <p class="text-secondary">Heat map showing your win rates across all combinations · Purple border = Ranked map/mode</p>
                 </div>
                 <div class="chart-container" id="winRateGridChart" style="overflow-x: auto; overflow-y: hidden; max-width: 100%;"></div>
             </div>
@@ -263,7 +259,6 @@
                 <!-- Sample Data Section -->
                 <div class="sample-data-section">
                     <div class="sample-data-header">
-                        <span class="sample-data-icon">📦</span>
                         <h4 class="sample-data-title">Don't have data? Try our sample files!</h4>
                     </div>
                     <p class="sample-data-desc">

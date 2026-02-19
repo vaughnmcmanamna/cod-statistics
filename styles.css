@@ -277,7 +277,7 @@ button, .btn {
     font-weight: 500;
     font-family: inherit;
     cursor: pointer;
-    transition: all var(--transition-fast);
+    transition: background var(--transition-fast), border-color var(--transition-fast), color var(--transition-fast);
     background: var(--bg-base);
     color: var(--text-primary);
     white-space: nowrap;
@@ -341,11 +341,6 @@ input, select {
     font-family: inherit;
     color: var(--text-primary);
     background: var(--bg-base);
-    transition: all var(--transition-fast);
-}
-
-input:hover, select:hover {
-    border-color: var(--border-color-hover);
 }
 
 input:focus, select:focus {
@@ -381,11 +376,6 @@ input[type="file"] {
     border-radius: var(--radius-md);
     padding: var(--spacing-6);
     box-shadow: var(--shadow-sm);
-    transition: all var(--transition-base);
-}
-
-.card:hover {
-    box-shadow: var(--shadow-md);
 }
 
 /* ===== Stats Cards ===== */
@@ -402,13 +392,7 @@ input[type="file"] {
     border-radius: var(--radius-md);
     padding: var(--spacing-6);
     box-shadow: var(--shadow-sm);
-    transition: all var(--transition-base);
     text-align: center;
-}
-
-.stat-card:hover {
-    box-shadow: var(--shadow-lg);
-    transform: translateY(-2px);
 }
 
 .stat-label {
@@ -779,18 +763,12 @@ svg text {
     border-radius: 6px;
     text-decoration: none;
     color: var(--text-primary);
-    transition: all 0.2s ease;
+    transition: border-color var(--transition-fast), background var(--transition-fast);
 }
 
 .sample-download-link:hover {
     background: var(--bg-tertiary);
     border-color: var(--color-primary);
-    transform: translateX(4px);
-    box-shadow: var(--shadow-md);
-}
-
-.sample-download-link:active {
-    transform: translateX(2px);
 }
 
 .sample-link-title {
